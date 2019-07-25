@@ -52,6 +52,7 @@ func main() {
 
 	/*
 		开协程（重点）
+		io.copyBuffer() 的简化版本
 	*/
 	var downloaderr error
 	go func() {

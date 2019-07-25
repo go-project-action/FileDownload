@@ -6,7 +6,7 @@
 
 - 1，如何控制下载速度？  
 buffer  
-[ratelimit包](github.com/juju/ratelimit)  
+[ratelimit包](https://github.com/juju/ratelimit)  
 
 - 2，如何在下载完文件后退出程序？  
 设置状态，如果速度为0，说明下载完了，break退出；  
